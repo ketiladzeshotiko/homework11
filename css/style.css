@@ -1,0 +1,185 @@
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+    display: grid;
+    background-color: #1C5550;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 48px 340px 284px;
+    grid-template-areas:
+        "HEADER HEADER HEADER HEADER"
+        "ASIDE SECTION1 SECTION1 SECTION2"
+        "CARD1 CARD2 CARD3 CARD4";
+    gap: 48px 40px;
+    padding: 32px 20px;
+}
+
+/*header  */
+header {
+    grid-area: HEADER;
+    /* background-color: rgb(233, 94, 7); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_ul {
+    display: flex;
+    column-gap: 84px;
+}
+
+.header_a {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    color: white;
+}
+
+.header_right {
+    display: flex;
+    column-gap: 32px;
+}
+
+.header_search {
+    display: flex;
+    align-items: center;
+    box-shadow: 1.52px 3px 3px -0.8px #00000033 inset, 0px -0.3px 1px 0px #DFD9D966 inset;
+    border-radius: 4px;
+    padding: 8px 20px;
+
+}
+
+.header_h4 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    color: #91B599;
+}
+
+.fa-magnifying-glass {
+    color: #91B599;
+    border-radius: 1.5px;
+    margin-left: 101px;
+}
+
+.fa-user {
+    font-size: 16px;
+    color: #91B599;
+}
+
+.user_button {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: #00000033;
+    box-shadow: 0px 2px 4px -2px #DFD9D966 inset, 0px 2px 4px 0px #00000033;
+    border: none;
+}
+
+.fa-cart-shopping {
+    color: #C3B97F;
+    font-size: 14px;
+}
+
+.cart_button {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    background-color: #00000033;
+    box-shadow: 0px 2px 4px -2px #DFD9D966 inset, 0px 2px 4px 0px #00000033;
+    border: none;
+}
+
+/* asidee */
+
+.aside_1 {
+    grid-area: ASIDE;
+    /* background-color: rgb(183, 236, 9); */
+}
+
+.aside_h3 {
+    margin: 38px 40px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #C3B97F;
+}
+
+.aside_h4 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #91B599;
+    margin-left: 48px;
+}
+
+.aside_a {
+    color: #91B599;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.aside_ul {
+    margin-left: 48px;
+}
+
+/* sections */
+.section1 {
+    grid-area: SECTION1;
+    /* background-color: rgb(15, 219, 73); */
+}
+
+.section2 {
+    grid-area: SECTION2;
+    /* background-color: rgb(0, 221, 255); */
+}
+
+.section2_img {
+    margin-bottom: 48px;
+}
+
+/* cards */
+.card1 {
+    grid-area: CARD1;
+    /* background-color: rgb(7, 39, 156); */
+}
+
+.card2 {
+    grid-area: CARD2;
+    /* background-color: rgb(70, 16, 165); */
+}
+
+.card3 {
+    grid-area: CARD3;
+    /* background-color: rgb(182, 12, 145); */
+}
+
+.card4 {
+    grid-area: CARD4;
+    /* background-color: rgb(108, 4, 18); */
+}
+
+.article_p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #DFD9D9;
+}
+
+/* }
+.article_h3{
+    position: relative;
+    font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+color: #1C5550;
+
+} */
+/* backgroung imagegit veacde fotoze daweras da fotos ver vaparavebdi da articles roca vuwer position absolutes mtlad simaxinje gamodis */
